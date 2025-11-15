@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palladium - Science Project</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        section img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        h2 {
+            color: #2E7D32;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Palladium (Pd)</h1>
+        <p>Atomic Number: 46 | Transition Metal</p>
+    </header>
+    <nav>
+        #propertiesProperties</a>
+        #usesUses</a>
+        #historyHistory</a>
+        #factsFun Facts</a>
+    </nav>
+
+    <section id="properties">
+        <h2>Properties</h2>
+        <p>Palladium is a silvery-white metal with high corrosion resistance and excellent catalytic properties.</p>
+        https://upload.wikimedia.org/wikipedia/commons/8/8e/Palladium_sponge.jpg
+    </section>
+
+    <section id="uses">
+        <h2>Uses</h2>
+        <ul>
+            <li>Catalytic converters in cars</li>
+            <li>Electronics and jewelry</li>
+            <li>Hydrogen storage</li>
+        </ul>
+        https://upload.wikimedia.org/wikipedia/commons/6/6e/Catalytic_converter.jpg
+    </section>
+
+    <section id="history">
+        <h2>History</h2>
+        <p>Discovered by William Hyde Wollaston in 1803. Named after the asteroid Pallas.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/3b/William_Hyde_Wollaston.jpg
+    </section>
+
+    <section id="facts">
+        <h2>Fun Facts</h2>
+        <p>Palladium is rarer than gold and often used in luxury watches and electronics.</p>
+        https://upload.wikimedia.org/wikipedia/commons/4/4e/Palladium_watch.jpg
+    </section>
+
+    <footer>
+        <p>Science Project by [Your Name] | Sources: Wikipedia & Chemistry Resources</p>
+    </footer>
+</body>
+</html>
