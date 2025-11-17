@@ -3,22 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- Assuming style.css exists and matches index.html -->
     <title>Palladium Video</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #333; }
+        header { background: linear-gradient(135deg, #4CAF50, #2E7D32); color: white; text-align: center; padding: 30px 10px; }
+        nav { background: #333; display: flex; justify-content: center; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { color: #4CAF50; }
+        section { max-width: 900px; margin: 30px auto; background: white; padding: 40px 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+        .video-thumbnail { cursor: pointer; border-radius: 10px; transition: box-shadow 0.2s;}
+        .video-thumbnail:hover { box-shadow: 0 0 8px #4CAF50; }
+        .video-caption { margin-top: 12px; color: #2E7D32; font-size: 1.1em; }
+        iframe { margin-top: 30px; border-radius: 8px; }
+        footer { text-align: center; padding: 15px; background: #333; color: white; margin-top: 20px; font-size: 0.9em; }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Palladium (Pd) - Video Presentation</h1>
+    </header>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <!-- Add additional navigation items if needed -->
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="video.html">Palladium Video</a>
     </nav>
-    
-    <div class="video-container">
-        <h1>Palladium Video</h1>
-        <img src="thumbnail_url.jpg" alt="Palladium Video Thumbnail" style="width:300px; height:auto;"> <!-- Placeholder for thumbnail -->
-        <p>This is a caption for the Palladium video. Enjoy!</p>
+    <section>
+        <a href="https://youtu.be/uPkOts9jKQE?si=F_ZX991y9JW2_5pv" target="_blank" title="Watch on YouTube">
+            <img class="video-thumbnail" src="https://img.youtube.com/vi/uPkOts9jKQE/hqdefault.jpg" alt="Palladium YouTube Video" width="480" />
+        </a>
+        <div class="video-caption">
+            Click the image to watch on YouTube, or enjoy the embedded video below:<br>
+            <strong>Palladium - Properties and Uses</strong>
+        </div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/uPkOts9jKQE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-    </div>
+    </section>
+    <footer>
+        <p>Science Project by GianPa Greco | All sources credited | © 2025</p>
+    </footer>
 </body>
 </html>
